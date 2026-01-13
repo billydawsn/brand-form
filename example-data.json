@@ -1,0 +1,227 @@
+{
+  "brand": {
+    "name": "Acme Co",
+    "description": "Modern design system for a forward-thinking brand",
+    "website": "https://example.com",
+    "updatedAt": "2026-01-09"
+  },
+  "logos": [
+    {
+      "name": "Primary Logo",
+      "description": "Use on light backgrounds with ample whitespace",
+      "variants": [
+        {
+          "label": "SVG",
+          "src": "/assets/logos/logo-primary.svg"
+        },
+        {
+          "label": "PNG",
+          "src": "/assets/logos/logo-primary.png"
+        }
+      ]
+    },
+    {
+      "name": "Secondary Logo",
+      "description": "Use on dark backgrounds or in constrained spaces",
+      "variants": [
+        {
+          "label": "SVG",
+          "src": "/assets/logos/logo-secondary.svg"
+        },
+        {
+          "label": "PNG",
+          "src": "/assets/logos/logo-secondary.png"
+        }
+      ]
+    }
+  ],
+  "colors": [
+    {
+      "name": "Teal",
+      "role": ["Primary"],
+      "values": {
+        "hex": "#035259",
+        "rgb": "3, 82, 89",
+        "cmyk": "34, 3, 0, 65"
+      }
+    },
+    {
+      "name": "Lime Green",
+      "role": ["Primary"],
+      "values": {
+        "hex": "#DBF22E",
+        "rgb": "219, 242, 46",
+        "cmyk": "9, 0, 77, 5"
+      }
+    },
+    {
+      "name": "Oat",
+      "role": ["Primary"],
+      "values": {
+        "hex": "#F7F5EB",
+        "rgb": "247, 245, 235",
+        "cmyk": "0, 1, 5, 3"
+      }
+    },
+    {
+      "name": "Leaf Green",
+      "role": ["Secondary", "Data"],
+      "values": {
+        "hex": "#A0C63A",
+        "rgb": "160, 198, 58",
+        "cmyk": "15, 0, 55, 22"
+      }
+    },
+    {
+      "name": "Burnt Orange",
+      "role": ["Secondary", "Data"],
+      "values": {
+        "hex": "#FF6B35",
+        "rgb": "255, 107, 53",
+        "cmyk": "0, 58, 79, 0"
+      }
+    },
+    {
+      "name": "Off White",
+      "role": ["Secondary"],
+      "values": {
+        "hex": "#FEFEFE",
+        "rgb": "254, 254, 254",
+        "cmyk": "0, 0, 0, 0"
+      }
+    },
+    {
+      "name": "Charcoal",
+      "role": ["Secondary"],
+      "values": {
+        "hex": "#3E3E3E",
+        "rgb": "62, 62, 62",
+        "cmyk": "0, 0, 0, 76"
+      }
+    },
+    {
+      "name": "Positive",
+      "role": ["Data"],
+      "values": {
+        "hex": "#43B228",
+        "rgb": "67, 178, 40",
+        "cmyk": "44, 0, 54, 30"
+      }
+    },
+    {
+      "name": "Negative",
+      "role": ["Data"],
+      "values": {
+        "hex": "#FF4525",
+        "rgb": "255, 69, 37",
+        "cmyk": "0, 73, 85, 0"
+      }
+    },
+    {
+      "name": "Ocean Blue",
+      "role": ["Data"],
+      "values": {
+        "hex": "#219099",
+        "rgb": "3, 82, 89",
+        "cmyk": "34, 3, 0, 65"
+      }
+    },
+    {
+      "name": "Mustard Yellow",
+      "role": ["Data"],
+      "values": {
+        "hex": "#EDCC15",
+        "rgb": "237, 204, 21",
+        "cmyk": "0, 13, 85, 7"
+      }
+    }
+  ],
+  "typography": {
+    "fonts": [
+      {
+        "name": "Inter",
+        "source": {
+          "type": "google",
+          "family": "Inter",
+          "weights": [400, 500, 600, 700]
+        }
+      }
+    ],
+    "examples": [
+      {
+        "label": "H1 - Hero Headline",
+        "font": "Inter",
+        "sizePx": 48,
+        "weight": 700,
+        "text": "Designing the Future",
+        "lineHeight": 1.2
+      },
+      {
+        "label": "H2 - Section Headline",
+        "font": "Inter",
+        "sizePx": 32,
+        "weight": 700,
+        "text": "Bold Ideas, Beautiful Execution",
+        "lineHeight": 1.3
+      },
+      {
+        "label": "H3 - Subsection",
+        "font": "Inter",
+        "sizePx": 24,
+        "weight": 600,
+        "text": "Key Features & Benefits",
+        "lineHeight": 1.4
+      },
+      {
+        "label": "Body",
+        "font": "Inter",
+        "sizePx": 16,
+        "weight": 400,
+        "text": "Our comprehensive design system empowers teams to create consistent, accessible, and beautiful digital experiences. Built with modern web standards and best practices in mind.",
+        "lineHeight": 1.6
+      },
+      {
+        "label": "Small Text",
+        "font": "Inter",
+        "sizePx": 14,
+        "weight": 400,
+        "text": "Additional information, captions, and supporting details.",
+        "lineHeight": 1.5
+      },
+      {
+        "label": "Button Label",
+        "font": "Inter",
+        "sizePx": 16,
+        "weight": 600,
+        "text": "Get Started",
+        "letterSpacing": "0.025em"
+      }
+    ]
+  },
+  "gallery": [
+    {
+      "caption": "Brand identity in action - modern workspace",
+      "src": "/assets/gallery/photo-1.jpg"
+    },
+    {
+      "caption": "Product packaging showcasing brand colors",
+      "src": "/assets/gallery/photo-2.jpg"
+    },
+    {
+      "caption": "Digital presence across devices",
+      "src": "/assets/gallery/photo-3.jpg"
+    },
+    {
+      "caption": "Marketing collateral suite",
+      "src": "/assets/gallery/photo-4.jpg"
+    },
+    {
+      "caption": "Event signage and environmental graphics",
+      "src": "/assets/gallery/photo-5.jpg"
+    },
+    {
+      "caption": "Social media templates",
+      "src": "/assets/gallery/photo-6.jpg"
+    }
+  ]
+}
